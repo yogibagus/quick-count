@@ -78,7 +78,7 @@ function NumberFormat($number)
 
 <div class="row mb-3">
     <? foreach ($result as $key => $value) { ?>
-        <div class="col-md-4 col-12">
+        <div class="col-md-4 col-12 mb-3">
             <div class="card text-start h-100 shadow-sm mb-3">
                 <div class="card-body">
                     <div class="row">
@@ -103,7 +103,7 @@ function NumberFormat($number)
 </div>
 
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 mb-3">
         <div class="card shadow-sm h-100">
             <div class="card-body">
                 <canvas id="chartReal"></canvas>
@@ -111,7 +111,7 @@ function NumberFormat($number)
         </div>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6 mb-3">
         <div class="card shadow-sm h-100">
             <div class="card-body">
                 <canvas id="chartPie"></canvas>
